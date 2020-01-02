@@ -647,13 +647,13 @@ input:-webkit-autofill:focus {
     padding-top: 60px;
     padding-bottom: 120px;
         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#482cbf+0,6ac6f0+100 */
-        background: rgb(255, 0, 0);
+        background: rgb(255, 0, 0) ;
         /* Old browsers */
         /* FF3.6-15 */
-        background: -webkit-linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(255, 153, 128, 1) 100%);
+        background: -webkit-linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(255, 153, 128, 1) 100%) !important;
         /* Chrome10-25,Safari5.1-6 */
-        background: -o-linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(255, 153, 128, 1) 100%);
-        background: linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(255, 153, 128, 1) 100%);
+        background: -o-linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(255, 153, 128, 1) 100%) !important;
+        background: linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(255, 153, 128, 1) 100%) !important;
         /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
         /* IE6-9 fallback on horizontal gradient */
