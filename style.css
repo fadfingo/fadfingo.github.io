@@ -98,6 +98,10 @@ body {
     height: 100%
 }
 
+.center{
+    text-align: center !important;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -106,6 +110,13 @@ body {
     color: #c56868;
 }
 
+.statusul{
+    width: 80%;
+    text-align:start ;
+    margin: auto;
+    margin-bottom: 20px;
+    list-style-type: circle; 
+}
 
 /* Remove Chrome Input Field's Unwanted Yellow Background Color */
 
@@ -116,6 +127,21 @@ input:-webkit-autofill:focus {
 }
 
 /*-- 3. Button-Style --*/
+.status{
+    position: relative;
+    background: rgb(255, 0, 0);
+    background: -webkit-linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(255, 153, 128, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(255, 153, 128, 1) 100%);
+    background: linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(255, 153, 128, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
+    overflow: hidden;
+    opacity: 0.8;
+    border-radius: 10px;
+    z-index: 1;
+    margin-right: 10px;
+    border: none;
+    color: white;
+}
 
 .bttn-white {
     position: relative;
@@ -320,7 +346,7 @@ input:-webkit-autofill:focus {
     background: -webkit-linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(255, 153, 128, 1) 100%);
     background: -o-linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(255, 153, 128, 1) 100%);
     background: linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(255, 153, 128, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3300', endColorstr='#ff3300', GradientType=1);
     z-index: -1;
     opacity: 0;
     -webkit-transition: 0.3s;
@@ -448,11 +474,18 @@ input:-webkit-autofill:focus {
 }
 
 .progress-area .mobile-image {
-    margin-top: -90px;
-    margin-bottom: -153px;
+    margin-top: 90px;
+    margin-bottom: 20px;
 }
 
 /*-- 8. Bagaimana-Area --*/
+
+.bio{
+    width:35%;
+    height:50%;
+    margin-left: 25%;
+    border-radius: 10px;
+}
 
 .bagaimana-area {
     /* background-image: url('images/progress-bg.jpg'); */
@@ -467,15 +500,31 @@ input:-webkit-autofill:focus {
     margin-top: -90px;
     margin-bottom: -153px;
 }
-/*-- 9. Video-Area --*/
 
+.team{
+    margin-top: 30px;
+    border-radius: 10px;
+}
+/*-- 9. Video-Area --*/
+.video {
+    height: 0;
+    position: relative;
+    padding-bottom: 56.25%; /* Если видео 16/9, то 9/16*100 = 56.25%. Также и с 4/3 - 3/4*100 = 75% */
+}
+.video iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
 .video-area {
-    background-image: url('images/video-bg.jpg');
     background-repeat: no-repeat;
     background-position: left center;
     background-size: auto 100%;
     margin-bottom: 30px;
-    margin-top: 100px;
+    margin-top: 50px;
+    color: tomato;
 }
 
 .video-photo {
@@ -587,7 +636,13 @@ input:-webkit-autofill:focus {
 }
 
 /*-- 12. Testimonial-Area --*/
+.mini{
+    font-size: 8px;
+}
 
+.mini2{
+    font-size: 14px;
+}
 .testimonial-area {
     padding-top: 60px;
     padding-bottom: 120px;
@@ -607,11 +662,11 @@ input:-webkit-autofill:focus {
 
 .team-box {
     position: relative;
-    padding: 55px 30px 30px 30px;
+    padding: 20px 30px 30px 30px;
     -webkit-box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    margin-top: 40px;
+    margin-top: 20px;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
@@ -620,6 +675,7 @@ input:-webkit-autofill:focus {
     margin-right: 15px;
     background-color: white;
     color: tomato;
+    height: 80% !important;
 }
 
 .team-box:hover {
@@ -1028,7 +1084,7 @@ input:-webkit-autofill:focus {
     list-style: none;
     margin: 0;
     padding: 0;
-    text-align: right;
+    /* text-align: right; */
 }
 
 .footer-bottom .footer-menu ul li {
