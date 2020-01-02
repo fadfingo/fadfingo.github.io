@@ -100,10 +100,10 @@ body {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 16px;
     line-height: 32px;
-    color: #ff9999;
+    color: #c56868;
 }
 
 
@@ -228,7 +228,7 @@ input:-webkit-autofill:focus {
 }
 
 .section-padding {
-    padding-top: 120px;
+    padding-top: 70px;
     padding-bottom: 120px;
 }
 
@@ -439,12 +439,12 @@ input:-webkit-autofill:focus {
 /*-- 8. Progress-Area --*/
 
 .progress-area {
-    background-image: url('images/progress-bg.jpg');
+    /* background-image: url('images/progress-bg.jpg'); */
     background-repeat: no-repeat;
     background-position: right center;
     background-size: auto 100%;
-    margin-top: 90px;
-    margin-bottom: 220px;
+    margin-top: 80px;
+    margin-bottom: 38px;
 }
 
 .progress-area .mobile-image {
@@ -459,7 +459,8 @@ input:-webkit-autofill:focus {
     background-repeat: no-repeat;
     background-position: left center;
     background-size: auto 100%;
-    margin-bottom: 120px;
+    margin-bottom: 30px;
+    margin-top: 100px;
 }
 
 .video-photo {
@@ -491,7 +492,7 @@ input:-webkit-autofill:focus {
     background-position: bottom -120px center;
     background-repeat: no-repeat;
     background-size: auto 94%;
-    margin-bottom: 142px;
+    /* margin-bottom: 142px; */
 }
 
 .feature-area .page-title .title {
@@ -575,6 +576,18 @@ input:-webkit-autofill:focus {
 .testimonial-area {
     padding-top: 60px;
     padding-bottom: 120px;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#482cbf+0,6ac6f0+100 */
+        background: rgb(255, 0, 0);
+        /* Old browsers */
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(255, 153, 128, 1) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: -o-linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(255, 153, 128, 1) 100%);
+        background: linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(255, 153, 128, 1) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
+        /* IE6-9 fallback on horizontal gradient */
+        color: #ffffff;
 }
 
 .team-box {
@@ -590,6 +603,8 @@ input:-webkit-autofill:focus {
     margin-bottom: 30px;
     margin-left: 15px;
     margin-right: 15px;
+    background-color: white;
+    color: tomato;
 }
 
 .team-box:hover {
