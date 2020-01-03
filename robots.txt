@@ -6,4 +6,4 @@ Disallow:
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: fingonew.com/sitemap.xml
+Sitemap: http://fingonew.com/sitemap.xml
